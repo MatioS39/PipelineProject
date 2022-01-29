@@ -8,16 +8,16 @@ trigger:
 
 variables:
   # Azure Resource Manager connection created during pipeline creation
-  azureServiceConnectionId: 'a1f0ed80-ec78-445e-8972-056a242b3194'
+  azureServiceConnectionId: 'f1ff20fb-17b5-4c01-b88a-d8f09136f741'
 
   # Web app name
-  webAppName: 'km46543-pipeline'
+  webAppName: ''
 
   # Agent VM image name
   vmImageName: 'ubuntu-latest'
 
   # Environment name
-  environmentName: 'pipeline'
+  environmentName: ''
 
   # Project root folder. Point to the folder containing manage.py file.
   projectRoot: $(System.DefaultWorkingDirectory)
